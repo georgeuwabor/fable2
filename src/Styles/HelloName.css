@@ -1,0 +1,117 @@
+@import url("https://fonts.cdnfonts.com/css/basis-grotesque-pro");
+
+#hello {
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 135%;
+  /* or 32px */
+
+  text-align: left;
+  margin-left: 80px;
+  /* Secondary */
+
+  color: #080b13;
+}
+
+#cardpoint_container {
+  display: flex;
+  flex-direction: column;
+
+  width: 30%;
+  height: auto;
+  margin-left: 80px;
+  /* Gray 2 */
+
+  background: #f1f1ef;
+}
+
+.cardpoint_info {
+  display: flex;
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  justify-content: space-between;
+  text-align: center;
+
+  /* Secondary */
+
+  color: #080b13;
+}
+
+.cardpoint_img > img {
+  width: 100%;
+}
+
+.cardpoint_info > p {
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+  text-align: center;
+
+  /* Secondary */
+
+  color: #080b13;
+}
+
+.cardpoint_info_ {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardpoint_info_ > p {
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+
+  color: rgba(60, 55, 55, 0.8);
+}
+
+#recent_orders_container {
+  width: 80%;
+  margin-top: 32px;
+  margin-left: 80px;
+}
+
+.recent_orders_heading {
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  /* identical to box height, or 22px */
+
+  /* Secondary */
+
+  color: #080b13;
+}
+
+.flex_order {
+  display: flex;
+  justify-content: space-between;
+}
+
+#recent_details {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.flex_order_heading {
+  width: 22%;
+  font-weight: 700;
+}
+
+.flex_details {
+  width: 22%;
+}

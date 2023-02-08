@@ -1,0 +1,293 @@
+@import url("https://fonts.cdnfonts.com/css/basis-grotesque-pro");
+
+body {
+  box-sizing: border-box;
+}
+
+#cart_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 50px;
+  gap: 20px;
+
+  width: 100%;
+  height: 203px;
+
+  /* White */
+
+  background: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#cart_info_name {
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+
+  /* Secondary */
+
+  color: #080b13;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#cart_info_collection {
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  /* or 14px */
+
+  /* Gray */
+
+  color: rgba(60, 55, 55, 0.8);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#cart_info_article {
+  margin-bottom: 0;
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  /* or 14px */
+
+  /* Gray */
+
+  color: rgba(60, 55, 55, 0.8);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.cart_info1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 26px;
+  margin-top: 40px;
+}
+
+#cart_info {
+  width: 100%;
+}
+
+#qua_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+}
+
+#qua_div p {
+  margin-top: 4px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+#qua_container {
+  display: flex;
+}
+
+#price_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_properties {
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+
+  display: flex;
+  align-items: flex-end;
+
+  /* Secondary */
+
+  color: #080b13;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.info_values {
+  /* Body 2 */
+
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+
+  /* Secondary */
+
+  color: #080b13;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+#info_delete {
+  /* Body 1 */
+
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+
+  /* Light grey */
+
+  color: #707070;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 12px;
+}
+
+#cart_img {
+  width: 183px;
+  height: 203px;
+  background: #f1f1ef;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 0;
+}
+
+.card_bag {
+  margin-bottom: 20px;
+}
+
+#card_bag_summary {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: -8%;
+  flex-direction: column;
+  text-align: right;
+  margin-top: 8%;
+}
+
+.flex_content {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  align-self: end;
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  /* identical to box height, or 16px */
+  margin-bottom: -10px;
+  /* Secondary */
+  margin-top: 0px;
+  color: #080b13;
+}
+
+#flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary_details {
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #080b13;
+}
+
+.input_container {
+  display: flex;
+  justify-content: right;
+}
+
+.input_details {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px 24px;
+
+  width: 38%;
+  height: 50px;
+
+  /* White */
+
+  background: #ffffff;
+  /* Secondary */
+
+  border: 1px solid #080b13;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: -10px;
+}
+
+.btn_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 15%;
+  height: 50px;
+  background: #080b13;
+  font-family: "Basis Grotesque Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+#flex_column{
+  display: flex;
+  flex-direction: column;
+}
